@@ -449,7 +449,7 @@ section{padding-block:clamp(64px,8vw,128px)}
 @media(max-width:760px){.menu-cats{grid-template-columns:1fr;gap:var(--space-6)}}
 
 /* --- ZESPÓŁ / SPECJALISTKI (renderowane TYLKO z realnych danych) - reuzyte z kliniki --- */
-.zespol-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:var(--space-6)}
+.zespol-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,19rem));gap:var(--space-6);justify-content:center}
 .doc{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;
   transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
 .doc:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
