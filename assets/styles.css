@@ -606,3 +606,13 @@ section{padding-block:clamp(74px,10vh,124px)}   /* nieco więcej oddechu niż re
 .nav .brand .sub{display:none}
 .nav .brand{min-width:0;overflow:hidden}
 }
+
+/* === FIX KONTRASTU (motyw ciemny) — elementy z zaszytym #fff tłem === */
+.btn-light{background:rgba(255,255,255,.05);color:var(--ink);border:1px solid rgba(255,255,255,.30);box-shadow:none}
+.btn-light:hover{background:rgba(255,255,255,.12);border-color:var(--accent);color:var(--ink)}
+.trust-card{background:var(--paper-2);border-top:3px solid var(--accent)}
+.form{background:var(--paper-2);border:1px solid var(--line)}
+.form input,.form textarea,.form select{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.form input::placeholder,.form textarea::placeholder{color:var(--muted)}
+.form input:focus,.form textarea:focus{background:var(--paper);border-color:var(--accent);color:var(--ink)}
+.form label{color:var(--ink-soft)}
